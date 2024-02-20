@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +7,9 @@
     <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
     <style>
         body {
+            background: linear-gradient(to right, #333333 0%, #666666 50%, #999999 100%);
+            height: 100vh;
+            width: 100vw;
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -58,7 +62,6 @@
             <button type="button" class="nav-button" onclick="changeModel(1)">next ⇨</button>
         </div>
     </div>
-</div>
 
 <script>
     const models = [
