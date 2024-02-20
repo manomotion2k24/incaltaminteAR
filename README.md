@@ -60,7 +60,7 @@
             shadow-intensity="1" 
             alt="Produs"
             min-camera-orbit="auto 0deg 0deg" 
-            max-camera-orbit="auto 60deg auto">
+            max-camera-orbit="auto 90deg auto">
             <button slot="ar-button" class="ar-button">
                 <span class="levitate">👋</span> Activează modul AR
             </button>
